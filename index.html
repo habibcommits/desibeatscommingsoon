@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desi Beats - Coming Soon</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="logo">Desi Beats</h1>
+            <p class="tagline">Something Amazing is Coming Soon</p>
+            <div class="countdown" id="countdown">
+                <div class="time-unit">
+                    <span id="days" class="time-value">00</span>
+                    <span class="time-label">Days</span>
+                </div>
+                <div class="time-unit">
+                    <span id="hours" class="time-value">00</span>
+                    <span class="time-label">Hours</span>
+                </div>
+                <div class="time-unit">
+                    <span id="minutes" class="time-value">00</span>
+                    <span class="time-label">Minutes</span>
+                </div>
+                <div class="time-unit">
+                    <span id="seconds" class="time-value">00</span>
+                    <span class="time-label">Seconds</span>
+                </div>
+            </div>
+            <form class="notify-form" id="notifyForm">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Notify Me</button>
+            </form>
+            <p class="success-message" id="successMessage">Thanks! We'll notify you when we launch.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
