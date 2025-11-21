@@ -11,7 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
 .container {
@@ -140,6 +140,133 @@ body {
     }
 }
 
+.restaurant-info {
+    margin-top: 4rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 2rem;
+    color: #333;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    animation: fadeInUp 1s ease-out 0.8s both;
+}
+
+.info-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.info-header h2 {
+    font-size: 2.5rem;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.stars {
+    color: #FFD700;
+    font-size: 1.5rem;
+}
+
+.rating-text {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.category {
+    font-size: 1rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.info-card {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid #667eea;
+}
+
+.info-card h3 {
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.info-card p {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.service-tag {
+    background: #667eea;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.location-detail {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #666;
+}
+
+.hours-status {
+    color: #2ecc71;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.phone-link {
+    color: #667eea;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.phone-link:hover {
+    color: #764ba2;
+}
+
+.map-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.map-link:hover {
+    background: #764ba2;
+    transform: translateY(-2px);
+}
+
 @media (max-width: 768px) {
     .logo {
         font-size: 2.5rem;
@@ -168,5 +295,17 @@ body {
     
     .notify-form button {
         width: 100%;
+    }
+    
+    .restaurant-info {
+        padding: 1.5rem;
+    }
+    
+    .info-header h2 {
+        font-size: 2rem;
+    }
+    
+    .info-sections {
+        grid-template-columns: 1fr;
     }
 }

@@ -1,7 +1,7 @@
 # Desi Beats - Coming Soon Page
 
 ## Overview
-This is a "coming soon" landing page for Desi Beats. The page features a countdown timer, email notification signup form, and a modern, responsive design.
+This is a "coming soon" landing page for Desi Beats Café. The page features a countdown timer, email notification signup form, and detailed restaurant information including location, hours, and contact details.
 
 ## Project Structure
 - `index.html` - Main HTML page
@@ -18,6 +18,13 @@ This is a "coming soon" landing page for Desi Beats. The page features a countdo
 ## Features
 - Countdown timer (currently set to Dec 31, 2025)
 - Email notification signup form
+- Restaurant information section with:
+  - Rating display (4.2 stars, 61 reviews)
+  - Services offered (Dine-in, Takeout)
+  - Complete address in Islamabad, Pakistan
+  - Operating hours
+  - Clickable phone number
+  - Google Maps integration
 - Responsive design for mobile and desktop
 - Smooth animations and modern gradient background
 - No-cache headers for development
@@ -31,4 +38,5 @@ const countDownDate = new Date("Dec 31, 2025 23:59:59").getTime();
 To change colors or styling, edit `styles.css`.
 
 ## Recent Changes
+- **Nov 21, 2025**: Added restaurant information section with address, hours, contact details, and Google Maps link
 - **Nov 21, 2025**: Initial setup - Created coming soon page with countdown timer and email form
